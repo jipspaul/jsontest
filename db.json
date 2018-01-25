@@ -1,40 +1,84 @@
 {
-  "posts": [
-{
-  "kind" : "ANSWER",
-  "_id" : "5a6676cf1cbdc459e0599e45",
-  "updated_at" : "2018-01-22T23:42:07.074Z",
-  "created_by" : {
-    "fullname" : "Ilan",
-    "_id" : "5a3aa49bb350fa2111572525",
-    "is_certified" : false,
-    "username" : "ilano",
-    "photo" : "https:\/\/d34olbhzgx4sez.cloudfront.net\/images\/users\/1513792797253.jpg"
-  },
-  "text" : " a répondu à ta question",
-  "created_at" : "2018-01-22T23:42:07.074Z",
-  "__v" : 0,
-  "is_view" : true,
-  "message" : {
-    "is_answered" : true,
-    "is_post" : false,
-    "likes" : {
-      "total" : 0
-    }
-  ], 
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"posts": [{
+		"kind": "ANSWER",
+		"_id": "5a6676cf1cbdc459e0599e45",
+		"updated_at": "2018-01-22T23:42:07.074Z",
+		"created_by": {
+			"fullname": "Ilan",
+			"_id": "5a3aa49bb350fa2111572525",
+			"is_certified": false,
+			"username": "ilano",
+			"photo": "https:\/\/d34olbhzgx4sez.cloudfront.net\/images\/users\/1513792797253.jpg"
+		},
+		"text": " a répondu à ta question",
+		"created_at": "2018-01-22T23:42:07.074Z",
+		"__v": 0,
+		"is_view": true,
+		"message": {
+			"is_answered": true,
+			"is_post": false,
+			"likes": {
+				"total": 0
+			},
+			"is_anonymous": true,
+			"age": 12,
+			"total_comments": 0,
+			"is_photo": false,
+			"created_for": {
+				"total_followers": 12,
+				"_id": "5a3aa49bb350fa2111572525",
+				"success_score": 0.42000000000000004,
+				"is_certified": false,
+				"photo": "https:\/\/d34olbhzgx4sez.cloudfront.net\/images\/users\/1513792797253.jpg",
+				"strike_likes_count": 0,
+				"fullname": "Ilan",
+				"total_following": 7,
+				"username": "ilano"
+			},
+			"_id": "5a6666d1377aab25affcca30",
+			"created_by": {
+				"total_followers": 13,
+				"_id": "5a5bc7b4fbef7b17b65e5a67",
+				"success_score": 0,
+				"is_certified": true,
+				"photo": "https:\/\/d1uqt4sztbdvi4.cloudfront.net\/images\/users\/1516464798130.jpg",
+				"strike_likes_count": 0,
+				"fullname": "Mika 🔥🚀",
+				"total_following": 31,
+				"username": "mikaskip"
+			},
+			"text": "Test",
+			"answer_by": "5a3aa49bb350fa2111572525",
+			"answer": "Or seems to be working",
+			"created_at": "2018-01-22T23:42:07.070Z",
+			"__v": 0,
+			"question": "Test"
+		}
+	}, {
+		"fullname": "Ilan",
+		"_id": "5a3aa49bb350fa2111572525",
+		"is_certified": false,
+		"username": "ilano",
+		"photo": "https:\/\/d34olbhzgx4sez.cloudfront.net\/images\/users\/1513792797253.jpg"
+	}, {
+		"is_answered": true,
+		"is_post": false,
+		"likes": {
+			"total": 0
+		}
+	}],
+	"comments": [{
+			"id": 1,
+			"body": "some comment",
+			"postId": 1
+		},
+		{
+			"id": 2,
+			"body": "some comment",
+			"postId": 1
+		}
+	],
+	"profile": {
+		"name": "typicode"
+	}
 }
