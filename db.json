@@ -1,8 +1,10 @@
 {
 	"posts": [{
-		"kind": "ANSWER",
-		"id": "5a6676cf1cbdc459e0599e45",
-		"text": " a répondu à ta question"
+		"url1": "ANSWER",
+				"url2": "ANSWER",
+		"audio1": "ANSWER",
+
+		"audio2": "5a6676cf1cbdc459e0599e45",
 	}],
 	"comments": [{
 			"id": 1,
