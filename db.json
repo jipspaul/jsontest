@@ -4,7 +4,11 @@
 				"url2": "https://senebougou.s3.eu-west-3.amazonaws.com/infoFlashMali/Affiche+ministere.png",
 		"audio1": "https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3",
 
-		"audio2": "https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3"
+		"audio2": "https://file-examples.com/wp-content/uploads/2017/11/file_example_MP3_700KB.mp3",
+		"question": "Vous lavez-vous les mains régulierement?",
+		"answer1": "Oui",
+		"answer2": "Non"
+
 	}],
 	"comments": [{
 			"id": 1,
